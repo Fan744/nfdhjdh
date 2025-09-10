@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #f5f7fa; text-align: center; }
+.header { background: linear-gradient(90deg, #007bff, #6610f2); color: white; padding: 15px; font-size: 24px; font-weight: bold; }
+.subheading { font-size: 18px; margin-top: 10px; color: #555; font-weight: bold; }
+.subheading a { background: linear-gradient(90deg, #ff416c, #ff4b2b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; font-weight: bold; }
+.container { display: flex; justify-content: space-around; margin: 30px auto; width: 80%; }
+.tab { flex: 1; padding: 20px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; transition: 0.3s; border-radius: 10px; font-size: 20px; font-weight: bold; }
+.tab:hover { background: #007bff; color: white; }
+.content { display: none; margin-top: 20px; }
+.content.active { display: block; }
+.footer { margin-top: 30px; font-size: 18px; font-weight: bold; padding: 15px; background: #1c1c1c; color: white; border-radius: 10px; }
+.footer a { color: #ffeb3b; text-decoration: none; font-weight: bold; }
+.video-list, .pdf-list, .other-list { text-align: left; max-width: 600px; margin: auto; }
+.video-list a, .pdf-list a, .other-list a { display: block; padding: 10px; background: #fff; margin: 5px 0; border-radius: 5px; text-decoration: none; color: #007bff; font-weight: bold; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+.video-list a:hover, .pdf-list a:hover, .other-list a:hover { background: #007bff; color: white; }
+.search-bar { margin: 20px auto; width: 80%; max-width: 600px; }
+.search-bar input { width: 100%; padding: 10px; border: 2px solid #007bff; border-radius: 5px; font-size: 16px; }
+.no-results { color: red; font-weight: bold; margin-top: 20px; display: none; }
+#video-player, #youtube-player { display: none; margin: 20px auto; width: 80%; max-width: 800px; }
+.download-button { margin-top: 10px; text-align: center; }
+.download-button a { background: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+.download-button a:hover { background: #0056b3; }
+.datetime { margin-top: 10px; font-size: 18px; font-weight: bold; color: #2F4F4F; }
